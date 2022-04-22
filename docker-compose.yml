@@ -7,7 +7,7 @@ services:
   api:
     build: ./backend
     ports:
-      - 3002:3002
+      - 3001:3001
     environment: 
       DB_URL: mongodb://db/sajeer
   db:
